@@ -78,7 +78,7 @@ on:
           - -autumn-harvesting
           - -winter-storing
           - -stable
-          - -
+          - -s
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
