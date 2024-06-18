@@ -28,7 +28,7 @@ on:
           - 5.10.y
           - 5.15.y
           - 6.1.90
-          - 6.6.y
+          - 6.6.31
           - 6.1.y_6.6.y
           - 5.15.y_5.10.y
       kernel_auto:
@@ -42,7 +42,7 @@ on:
         default: "all"
         type: choice
         options:
-          - all
+          - 全部
           - dtbs
       kernel_toolchain:
         description: "Select the compilation toolchain"
